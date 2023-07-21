@@ -1,0 +1,425 @@
+ *{
+    padding: 0px;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: black;
+
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+
+}
+nav{
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+}
+label.logo{
+    color: rgb(73, 240, 217);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-shadow: 0px  2px  #03747c;
+    text-transform: uppercase;
+    border-bottom: 3px solid aqua;
+    
+    border-radius: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+    border-top: 3px solid aqua;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: #2ce2d3;
+    transition: 5s;
+
+}
+.checkbtn{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+   display: none;
+}
+#check{
+    display:none ;
+    
+}
+.heading{
+    color: rgb(73, 240, 217);
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+    text-shadow: 0px  2px  #03747c;
+    text-transform: uppercase;
+    border-bottom: 3px solid aqua;
+    background-color: #143e52;
+    border-radius: 20px;
+    width: 400px;
+    margin-top: 10px;
+}
+.about{
+    width: 100%;
+    padding: 0 200px;
+    color: azure;
+    line-height: 40px;
+    border: 2px solid palevioletred;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* -----------------------------------------------------section------------------------------------------------------------------
+*/
+section{
+    width: 100%;
+    
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.s1{
+    
+    width: 470px;
+   margin-top: 20PX;
+   
+}
+.s1 button{
+   
+  display: inline-block;
+  color: aliceblue;
+  height: 25px;
+  width: 100px;
+  border: 2px solid lightseagreen;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 20px;
+}
+.s1 button:hover{
+   
+   
+    border: 2px solid rgb(25, 183, 231);
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(49, 230, 73);
+  }
+.s1 h1{
+   
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: azure;
+}
+.s1 p{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 55px;
+    text-transform: capitalize;
+    color: rgb(20, 224, 190);
+}
+.s2{
+    display: flex;
+    flex-direction: column;
+}
+.s2 img{
+    margin-top: 10px;
+    display: block;
+    float: right;
+    height: 220px;
+    width:140px;
+    border-radius: 40px;
+    border: 2px solid palevioletred;
+}
+.s2 button{
+   
+    display: inline-block;
+    color: aliceblue;
+    height: 25px;
+    width: 130px;
+    border: 2px solid lightseagreen;
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 7px;
+  }
+  .s2 button:hover{
+     
+     
+      border: 2px solid rgb(25, 183, 231);
+      border-radius: 15px;
+      text-transform: uppercase;
+      font-family: 'Times New Roman', Times, serif;
+      background-color: rgb(49, 230, 73);
+    }
+    /*----------------------------------------section end------------------------------------------------------*/
+   
+.skl{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+   
+    .skl li a{
+        display: inline-block;
+        color: rgb(15, 208, 233);
+        font-size: 20px;
+        text-transform: uppercase;
+        padding: 7px 13px;
+        border-radius: 3px;
+        font-weight: bold;
+    }
+    .me , .skill{
+        color: aqua;
+       margin-top: 20px;
+    }
+    .me p{
+        color: aliceblue;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .certification{
+        display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.certi img:hover{
+    border: 2px solid rgb(27, 238, 115);
+    border-radius: 5px;
+}
+    
+    .certi img {
+        height: 300px;
+        width:450px;
+        align-items: center;
+        border: 2px solid rgb(81, 243, 235);
+        border-radius: 10px;
+        color: aqua;
+    }
+    .certi h2{
+       
+        color: aqua;
+    }
+    .project{
+        height: 300px;
+        width:400px;
+        border-bottom: 3px solid rgb(31, 221, 180);
+        border-right: 3px solid rgb(31, 221, 180);
+        border-radius: 25px;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+    }
+    .project:hover{
+        height: 300px;
+        width:400px;
+        border: 3px solid rgb(171, 226, 17);
+      
+        border-radius: 25px;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+    }
+    .project img{
+        height:200px;
+        width:398px;
+        border: 2px solid palevioletred;
+        border-radius: 40px;
+    }
+    
+    .project p{
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        text-align: center;
+    }
+    
+    .project button{
+        display: inline-block;
+    color: rgb(5, 11, 100);
+    height: 25px;
+    width: 130px;
+    border-bottom: 2px solid rgb(27, 231, 95);
+    border-right: 2px solid rgb(9, 212, 111);
+    border-radius: 15px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    align-items: center;
+    background-color: rgb(240, 139, 24);
+    
+    }
+    .cdetail{
+        text-align: center;
+        color:aliceblue;
+    }
+    .QA{ margin-top: 10px;
+        font-size: 25px;
+        font-weight: lighter;
+        color: aqua;
+        text-align: center;
+    }
+    .QA button{
+        height: 30px;
+        width:120px ;
+        border: 2px solid rgb(108, 179, 17);
+        background-color: rgb(12, 241, 62);
+        border-radius: 20px;
+    }
+    .ficon{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+    .ficon p box-icon{
+        height: 40px;
+        width: 40px;
+    }
+    .line{
+        height: 2px;
+        width: 100%;
+        background-color: aqua;
+    }
+    .copy{
+        text-align: center;
+        color: antiquewhite;
+    }
+    .copy box-icon{
+        margin-top: 5px;
+    }
+     a{
+        text-decoration: none;
+       background: none;
+    }
+    /*-----------------------------------------------media query----------------------------------------------------*/
+    @media (max-width: 952px){
+        label.logo{
+            font-size: 20px;
+            padding-left: 49px;
+        }
+        nav ul li a{
+            font-size: 15px;
+        }
+        .about{
+            width: 100%;
+            padding: 0 50px;
+            color: azure;
+            line-height: 40px;
+            border: 2px solid palevioletred;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        .certi img{
+            height: 400px;
+            width:550px;
+            align-items: center;
+            border: 5px solid palevioletred;
+            border-radius: 40px;
+            color: aqua;
+        }
+    } 
+    @media(max-width:858px){
+        .checkbtn{
+            display: block;
+    
+        }
+        ul{
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            background: #2c3e50;
+            top:80px;
+            left:-100%;
+            text-align: center;
+            transition: all .5s;
+        }
+        nav ul li{
+            display: block;
+            margin: 50px 0;
+            line-height: 30px;
+    
+        }
+        nav ul li a{
+            font-size: 20px;
+    
+        }
+        a:hover,a.active{
+            background: none;
+            color: #0082e6;
+        }
+        #check:checked ~ ul{
+            left: 0;
+        }
+        .heading{
+            color: rgb(73, 240, 217);
+            font-size: 15px;
+            line-height: 80px;
+            padding: 0 50px;
+            font-weight: bold;
+            text-shadow: 0px  2px  #03747c;
+            text-transform: uppercase;
+            border-bottom: 3px solid aqua;
+            
+            border-radius: 20px;
+            width: 200px;
+            margin-top: 10px;
+        }
+        .about{
+            width: 100%;
+            padding: 0 50px;
+            color: azure;
+            line-height: 40px;
+            border: 2px solid palevioletred;
+            border-radius: 20px;
+            margin-top: 10px;
+        }
+        .certi img{
+            height: 400px;
+            width:300px;
+            align-items: center;
+            border: 5px solid palevioletred;
+            border-radius: 40px;
+            color: aqua;
+        }
+        .project{
+        height: 300px;
+        width:255px;
+        border-bottom: 3px solid rgb(31, 221, 180);
+        border-right: 3px solid rgb(31, 221, 180);
+        border-radius: 25px;
+        color: rgb(255, 255, 255);
+        margin-top: 10px;
+    }
+    .project img{
+        height:150px;
+        width:240px;
+        border: 2px solid palevioletred;
+        border-radius: 40px;
+    }
+       
+    }
+    
