@@ -1,0 +1,14 @@
+.contact{
+   text-align: center;
+}
+.back{
+    display: inline-block;
+    height: 25px;
+    width: 140;
+    background-color: rgb(3, 173, 80);
+    border-radius: 10px;
+    border: 2px solid green;
+}
+a{
+    text-decoration: none;
+}
